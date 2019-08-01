@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad69d615f6ef4cb19f20869881d63cc, type: 3}
+  m_Name: Strange Hills With Pockets
+  m_EditorClassIdentifier: 
+  GroundHeight: 10
+  Amplitude: 86
+  Seed: 36830
+  Octaves: 9
+  Smoothness: 1036
+  Roughness: 0.821
+  Lacunarity: 1.704
+  TreeFrequency: 60
+  weights:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  CaveOne:
+    Seed: 27359
+    Octaves: 4
+    Frequency: 4.4
+    Smoothness: 1769
+    Exponent: 1
+    Gain: 2
+    Offset: 0.86
+    Amplitude: 34.6
+    HeightOffset: 0
+    Lacunarity: 2.134
+    Quality: 1
+    LowCutoff: 10
+    HighCutoff: 256
+    Weights:
+    - 1
+    - 0.46860355
+    - 0.2195893
+    - 0.102900326
+    - 0.048219457
+    - 0.02259581
+    - 0.010588476
+    - 0.0049617975
+    - 0.002325116
+    - 0.0010895577
+    - 0.0005105706
+    - 0.00023925518
+    - 0.000112115835
+    - 0.00005253788
+    - 0.000024619436
+    - 0.000011536754
+  CaveTwo:
+    Seed: 125221
+    Octaves: 3
+    Frequency: 8
+    Smoothness: 2096
+    Exponent: 1
+    Gain: 9
+    Offset: 1.54
+    Amplitude: 49
+    HeightOffset: 35
+    Lacunarity: 2
+    Quality: 1
+    LowCutoff: 10
+    HighCutoff: 256
+    Weights:
+    - 1
+    - 0.5
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.03125
+    - 0.015625
+    - 0.0078125
+    - 0.00390625
+    - 0.001953125
+    - 0.0009765625
+    - 0.00048828125
+    - 0.00024414062
+    - 0.00012207031
+    - 0.000061035156
+    - 0.000030517578

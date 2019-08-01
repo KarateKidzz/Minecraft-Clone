@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad69d615f6ef4cb19f20869881d63cc, type: 3}
+  m_Name: Rounded Hills
+  m_EditorClassIdentifier: 
+  GroundHeight: 64
+  Amplitude: 64
+  Seed: 25232
+  Octaves: 6
+  Smoothness: 2029
+  Roughness: 0.862
+  Lacunarity: 2.222
+  TreeFrequency: 29
+  weights:
+  - 1
+  - 0.5479669
+  - 0.3002677
+  - 0.16453674
+  - 0.09016069
+  - 0.04940507
+  - 0.027072342
+  - 0.014834747
+  - 0.008128949
+  - 0.004454395
+  - 0.002440861
+  - 0.0013375109
+  - 0.0007329117
+  - 0.00040161132
+  - 0.0002200697
+  - 0.0001205909
+  CaveOne:
+    Seed: 36594
+    Octaves: 4
+    Frequency: 27
+    Smoothness: 1088
+    Exponent: 2.225
+    Gain: 5.53
+    Offset: 1.25
+    Amplitude: 106.9
+    HeightOffset: -44
+    Lacunarity: 2.154
+    Quality: 1
+    LowCutoff: 0
+    HighCutoff: 256
+    Weights:
+    - 1
+    - 0.1813545
+    - 0.032889456
+    - 0.0059646503
+    - 0.0010817162
+    - 0.00019617409
+    - 0.000035577057
+    - 0.0000064520586
+    - 0.00000117011
+    - 0.00000021220471
+    - 0.00000003848428
+    - 0.0000000069792976
+    - 0.0000000012657271
+    - 2.2954533e-10
+    - 4.1629075e-11
+    - 7.54962e-12
+  CaveTwo:
+    Seed: 88994
+    Octaves: 3
+    Frequency: 15.1
+    Smoothness: 1316
+    Exponent: 0.832
+    Gain: 7.27
+    Offset: 1.35
+    Amplitude: 73.1
+    HeightOffset: -7
+    Lacunarity: 2.241
+    Quality: 0
+    LowCutoff: 31
+    HighCutoff: 191
+    Weights:
+    - 1
+    - 0.5110135
+    - 0.2611348
+    - 0.1334434
+    - 0.06819138
+    - 0.034846716
+    - 0.017807143
+    - 0.009099691
+    - 0.004650065
+    - 0.002376246
+    - 0.0012142939
+    - 0.00062052056
+    - 0.0003170944
+    - 0.00016203952
+    - 0.000082804385
+    - 0.00004231416

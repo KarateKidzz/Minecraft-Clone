@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8947742502687642950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8947742502687642968}
+  - component: {fileID: 8947742502687642951}
+  m_Layer: 0
+  m_Name: Texture Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8947742502687642968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947742502687642950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8947742502687642951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947742502687642950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0e011d47304ed896cc0c2206bf55a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextureBlockSize: {x: 256, y: 256}
+  TextureAtlas: {fileID: 2800000, guid: f5cde73672ff44d62aa82bb9c3f61fb5, type: 3}
+  TextureInterval: {x: 0, y: 0}
+  AtlasSize: {x: 0, y: 0}
+  BlockTextures:
+  - BlockType: 3
+    BlockTextures:
+      TopIndex: 0
+      SideIndex: 0
+      BottomIndex: 0
+  - BlockType: 4
+    BlockTextures:
+      TopIndex: 1
+      SideIndex: 4
+      BottomIndex: 0
+  - BlockType: 5
+    BlockTextures:
+      TopIndex: 5
+      SideIndex: 5
+      BottomIndex: 5
+  - BlockType: 6
+    BlockTextures:
+      TopIndex: 3
+      SideIndex: 2
+      BottomIndex: 3
+  - BlockType: 7
+    BlockTextures:
+      TopIndex: 6
+      SideIndex: 6
+      BottomIndex: 6

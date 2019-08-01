@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad69d615f6ef4cb19f20869881d63cc, type: 3}
+  m_Name: Hilly
+  m_EditorClassIdentifier: 
+  GroundHeight: 68
+  Amplitude: 29
+  Seed: 23150
+  Octaves: 8
+  Smoothness: 2978
+  Roughness: 0.847
+  Lacunarity: 1.743
+  TreeFrequency: 100
+  weights:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  CaveOne:
+    Seed: 19467
+    Octaves: 2
+    Frequency: 5.2
+    Smoothness: 2594
+    Exponent: 1.006
+    Gain: 3.48
+    Offset: 1.06
+    Amplitude: 108.5
+    HeightOffset: 59
+    Lacunarity: 2.102
+    Quality: 0
+    LowCutoff: 21
+    HighCutoff: 256
+    Weights:
+    - 1
+    - 0.47362158
+    - 0.22431739
+    - 0.10624156
+    - 0.050318297
+    - 0.023831831
+    - 0.01128727
+    - 0.005345895
+    - 0.002531931
+    - 0.0011991772
+    - 0.00056795625
+    - 0.00026899631
+    - 0.00012740247
+    - 0.000060340557
+    - 0.00002857859
+    - 0.000013535437
+  CaveTwo:
+    Seed: 23176
+    Octaves: 3
+    Frequency: 12.4
+    Smoothness: 525
+    Exponent: 1.106
+    Gain: 3.9
+    Offset: 1.07
+    Amplitude: 122.1
+    HeightOffset: 62
+    Lacunarity: 1.966
+    Quality: 0
+    LowCutoff: 30
+    HighCutoff: 256
+    Weights:
+    - 1
+    - 0.47347456
+    - 0.22417817
+    - 0.106142655
+    - 0.05025585
+    - 0.023794865
+    - 0.011266264
+    - 0.0053342893
+    - 0.0025256504
+    - 0.0011958312
+    - 0.00056619564
+    - 0.00026807925
+    - 0.0001269287
+    - 0.000060097518
+    - 0.000028454646
+    - 0.0000134725515
